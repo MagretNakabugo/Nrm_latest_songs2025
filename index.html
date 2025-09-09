@@ -232,12 +232,12 @@
     <div class="container">
         <header>
             <div class="header-images">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Yoweri_Museveni_%28cropped%29.jpg" alt="President Yoweri Museveni" class="president-img">
+                <img src="museveni.jpg" alt="President Yoweri Museveni" class="president-img">
                 <div>
                     <h1>NRM PARTY SONGS</h1>
                     <p class="tagline">Promoting Patriotic Music for a Stronger Uganda</p>
                 </div>
-                <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="NRM Artist" class="artist-img">
+                <img src="nakabugo.png" alt="NRM Artist" class="artist-img">
             </div>
         </header>
 
@@ -257,7 +257,7 @@
                 </p>
                 
                 <audio controls class="audio-player">
-                    <source src="path_to_nrm_song_1.mp3" type="audio/mpeg">
+                    <source src="NRM.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
                 
@@ -292,7 +292,7 @@
                 </p>
                 
                 <audio controls class="audio-player">
-                    <source src="path_to_nrm_song_2.mp3" type="audio/mpeg">
+                    <source src="okwebaza.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
                 
@@ -358,11 +358,11 @@
         function downloadSong(songNumber) {
             alert(`Downloading song ${songNumber}. In a real implementation, this would download the file.`);
             // Actual implementation would require:
-            // const link = document.createElement('a');
-            // link.href = `path_to_nrm_song_${songNumber}.mp3`;
-            // link.download = true;
-            // link.click();
+           const link = document.createElement('a');
+           link.href = `path_to_nrm_song_${songNumber}.mp3`;
+            link.download = true;
+            link.click();
         }
     </script>
 </body>
-  </html>
+    </html>
